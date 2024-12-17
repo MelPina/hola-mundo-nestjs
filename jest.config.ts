@@ -1,10 +1,10 @@
-import { JestConfigWithTsJest } from 'ts-jest';
+// import { JestConfigWithTsJest } from 'ts-jest';
 
-const config: JestConfigWithTsJest = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
-  rootDir: 'src',
-};
+// const config: JestConfigWithTsJest = {
+//   preset: 'ts-jest',
+//   testEnvironment: 'node',
+//   rootDir: 'src',
+// };
 
-export default config;
+// export default config;
 

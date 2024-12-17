@@ -4,7 +4,7 @@
   "description": "Un simple Hola Mundo con NestJS",
   "main": "dist/main.js",
   "scripts": {
-    "build": "node node_modules/.bin/nest build",
+    "build": "npx nest build",
     "start": "node dist/main.js",
     "start:dev": "nest start --watch",
     "test": "jest"
