@@ -1,4 +1,3 @@
-// jest.config.ts
 import { JestConfigWithTsJest } from 'ts-jest';
 
 const config: JestConfigWithTsJest = {
@@ -8,3 +7,4 @@ const config: JestConfigWithTsJest = {
 };
 
 export default config;
+
