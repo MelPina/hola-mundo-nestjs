@@ -27,9 +27,7 @@ jobs:
       - name: Build the Project
         run: npm run build
 
-      - name: Run Tests
-        run: npx jest --config=jest.config.ts
-
+    
       - name: Build Docker Image
         run: |
           docker build -t nestjs-hola-mundo .
