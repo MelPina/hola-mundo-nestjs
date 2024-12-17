@@ -21,8 +21,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Build the Project
-        run: npm run build
+      - name: Set Permissions for Nest CLI
+        run: chmod +x ./node_modules/.bin/nest
+
+      - name: Run Build
+        run: npx nest build
 
       - name: Build Docker Image
         run: |
