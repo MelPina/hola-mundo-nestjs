@@ -4,11 +4,11 @@
   "description": "Un simple Hola Mundo con NestJS",
   "main": "dist/main.js",
   "scripts": {
-    "start": "node dist/main",
+    "build": "node node_modules/.bin/nest build",
+    "start": "node dist/main.js",
     "start:dev": "nest start --watch",
-    "build": "nest build",
     "test": "jest"
-  },
+  },  
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
@@ -16,8 +16,8 @@
     "rxjs": "^7.8.0"
   },
   "devDependencies": {
-    "@nestjs/cli": "^10.0.0",
-    "typescript": "^5.0.0",
-    "@nestjs/schematics": "^10.0.0"
+    "@nestjs/cli": "^10.4.9",
+    "@nestjs/schematics": "^10.0.0",
+    "typescript": "^5.0.0"
   }
 }
